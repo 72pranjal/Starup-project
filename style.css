@@ -89,6 +89,7 @@ body {
     height: 66px;
     border: none;
     margin-top: 5%;
+    cursor: pointer;
 }
 
 .introduction-section .img-section {
@@ -141,10 +142,14 @@ body {
     font-size: 32px;
     font-weight: 700;
     margin: 25px 0;
+    cursor: pointer;
 }
 .contact-us input::placeholder {
     padding: 0 30px;
     color: #FCAF02;
+}
+.contact-us input:focus-visible {
+    outline: none;
 }
 
 .table-container {
